@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>minecraft_font_by_pwnage_block-d37t6nb.ttf</string>
+	</array>
 </dict>
 </plist>

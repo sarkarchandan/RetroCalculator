@@ -12,6 +12,8 @@
 		1750B6FD1EE0647A000BD259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1750B6FB1EE0647A000BD259 /* Main.storyboard */; };
 		1750B6FF1EE0647A000BD259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1750B6FE1EE0647A000BD259 /* Assets.xcassets */; };
 		1750B7021EE0647A000BD259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1750B7001EE0647A000BD259 /* LaunchScreen.storyboard */; };
+		1750B70A1EE0986F000BD259 /* minecraft_font_by_pwnage_block-d37t6nb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1750B7091EE0986F000BD259 /* minecraft_font_by_pwnage_block-d37t6nb.ttf */; };
+		1750B70C1EE09CF2000BD259 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1750B70B1EE09CF2000BD259 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1750B6FE1EE0647A000BD259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1750B7011EE0647A000BD259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1750B7031EE0647A000BD259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1750B7091EE0986F000BD259 /* minecraft_font_by_pwnage_block-d37t6nb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "minecraft_font_by_pwnage_block-d37t6nb.ttf"; sourceTree = "<group>"; };
+		1750B70B1EE09CF2000BD259 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		1750B6EB1EE0647A000BD259 = {
 			isa = PBXGroup;
 			children = (
+				1750B7091EE0986F000BD259 /* minecraft_font_by_pwnage_block-d37t6nb.ttf */,
+				1750B70B1EE09CF2000BD259 /* btn.wav */,
 				1750B6F61EE0647A000BD259 /* RetroCalculator */,
 				1750B6F51EE0647A000BD259 /* Products */,
 			);
@@ -123,9 +129,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1750B70C1EE09CF2000BD259 /* btn.wav in Resources */,
 				1750B7021EE0647A000BD259 /* LaunchScreen.storyboard in Resources */,
 				1750B6FF1EE0647A000BD259 /* Assets.xcassets in Resources */,
 				1750B6FD1EE0647A000BD259 /* Main.storyboard in Resources */,
+				1750B70A1EE0986F000BD259 /* minecraft_font_by_pwnage_block-d37t6nb.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +309,7 @@
 				1750B7081EE0647A000BD259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
