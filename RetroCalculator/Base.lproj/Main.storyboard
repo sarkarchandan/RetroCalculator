@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="664" width="414" height="72"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="dWs-qo-syO">
-                                <rect key="frame" x="37.666666666666657" y="133" width="340" height="560"/>
+                                <rect key="frame" x="37" y="133" width="340" height="560"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="560" id="7rh-Re-jwg"/>
                                     <constraint firstAttribute="width" constant="340" id="YSw-dj-VYx"/>

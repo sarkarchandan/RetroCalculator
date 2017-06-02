@@ -27,9 +27,9 @@ class ViewController: UIViewController {
     //Deifning the current operation as Empty. This will happen when we first time open up the
     //calculator
     var currentOperation = ArithmeticOperation.Empty
-    //Defining left hand operand as String, later we wil cast it into Double
+    //Defining left hand operand as String, later we will cast it into Double
     var leftHandOperand = ""
-    //Defining right hand operand as String, later we wil cast it into Double
+    //Defining right hand operand as String, later we will cast it into Double
     var rightHandOperand = ""
     //Definig result
     var result = ""
@@ -107,11 +107,13 @@ class ViewController: UIViewController {
         performArithmeticOperation(operation: currentOperation)
     }
     
+    //Reset the current state of the application
     @IBAction func onClearPressed(sender: AnyObject){
         playSound()
         resetCalculator()
     }
     
+    //Reset the current state of the application to start over again
     func resetCalculator(){
         currentOperation = ArithmeticOperation.Empty
         leftHandOperand = ""
@@ -187,7 +189,5 @@ class ViewController: UIViewController {
             }
         }
     }
-    
-    
 }
 
