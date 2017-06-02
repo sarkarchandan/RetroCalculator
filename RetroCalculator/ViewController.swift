@@ -107,6 +107,19 @@ class ViewController: UIViewController {
         performArithmeticOperation(operation: currentOperation)
     }
     
+    @IBAction func onClearPressed(sender: AnyObject){
+        playSound()
+        resetCalculator()
+    }
+    
+    func resetCalculator(){
+        currentOperation = ArithmeticOperation.Empty
+        leftHandOperand = ""
+        rightHandOperand = ""
+        result = ""
+        mathResultOutlet.text = "0"
+    }
+    
     //In order to play the sound in the emulator we had to disable all the break points in
     //in XCode.
     func playSound(){
