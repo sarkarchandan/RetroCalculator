@@ -14,7 +14,8 @@
 - Build and Run
 ```
 
-##Sample Screens
+## Sample Screens
+
 <img src="https://user-images.githubusercontent.com/19269229/27009300-b584674c-4e8a-11e7-821e-4f7750b6741f.png" width="150" height="250">
 <img src="https://user-images.githubusercontent.com/19269229/27009307-cac3d9ee-4e8a-11e7-8364-4835c69d6c6d.png" width="150" height="250">
 
